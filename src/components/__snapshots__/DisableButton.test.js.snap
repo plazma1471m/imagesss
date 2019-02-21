@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders disable button correctly 1`] = `
+<div
+  className="ui attached segment"
+>
+  <button
+    className="ui basic fluid positive button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+  >
+    Disable on this site
+  </button>
+</div>
+`;
+
+exports[`renders enable button correctly 1`] = `
+<div
+  className="ui attached segment"
+>
+  <button
+    className="ui basic fluid negative button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+  >
+    Enable on this site
+  </button>
+</div>
+`;
